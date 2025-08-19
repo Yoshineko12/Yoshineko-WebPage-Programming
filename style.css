@@ -8,7 +8,7 @@ body {
     /* ↓ ここからフェードイン演出のために追加 ↓ */
     opacity: 0; /* ★ページ読み込み時は透明に */
     animation-name: fadeIn; /* ★下で作成したfadeInアニメーションを適用 */
-    animation-duration: 5s; /* ★2秒かけてアニメーションさせる */
+    animation-duration: 5s; /* ★5秒かけてアニメーションさせる */
     animation-timing-function: ease-out; /* ★アニメーションの速度を調整（ゆっくり終わる）*/
     animation-fill-mode: forwards; /* ★アニメーション終了後、透明度を保つ */
     /* ↑ ここまで追加 ↑ */
