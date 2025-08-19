@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>数当てゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>数当てゲーム 🎯</h1>
+        <p>1から100までの数字を当ててください。</p>
+
+        <input type="number" id="guessInput" placeholder="数字を入力...">
+        <button id="guessButton">推測する</button>
+
+        <p id="messageArea"></p>
+        <p id="attemptsArea"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
