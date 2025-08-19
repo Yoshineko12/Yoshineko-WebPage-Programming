@@ -1,0 +1,37 @@
+/* 全体のスタイル */
+body {
+    background-color: #f0fff0; /* 背景を非常に薄い緑色（ハニーデュー）に */
+    font-family: "Helvetica", "Arial", sans-serif; /* 見やすいフォントを指定 */
+    color: #2f4f4f; /* 文字色を濃い緑がかったグレーに */
+    line-height: 1.6; /* 行間を少し広げて読みやすく */
+}
+
+/* 一番外側の箇条書きリスト（趣味は、住んでる県は、など） */
+body > ul {
+    list-style-type: none; /* リストの黒丸（・）を消す */
+    padding-left: 0; /* 左の余白をなくす */
+}
+
+/* 各項目の見出し（趣味は、住んでる県は、など） */
+body > ul > li {
+    font-size: 1.2em; /* 文字を少し大きく */
+    font-weight: bold; /* 文字を太く */
+    color: #006400; /* 見出しの文字を濃い緑色に */
+    margin-top: 20px; /* 見出しの上の余白を広げる */
+    border-left: 5px solid #2e8b57; /* 左側に緑色の線を入れてアクセントに */
+    padding-left: 10px; /* 左側の線と文字の間に余白を作る */
+}
+
+/* 内側の箇条書きリスト（散歩、音楽、など） */
+ul ul {
+    font-size: 1em; /* 文字サイズを標準に戻す */
+    font-weight: normal; /* 文字の太さを標準に戻す */
+    color: #2f4f4f; /* 文字色を標準に戻す */
+    margin-top: 8px; /* 見出しと項目の間の余白 */
+}
+
+/* 内側のリストの各項目 */
+ul ul li {
+    list-style-type: disc; /* リストの黒丸（・）を表示 */
+    margin-bottom: 5px; /* 各項目の下の余白 */
+}
